@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Freckle+Face|Permanent+Marker|Slackey');
+
+/*--font-family: 'Permanent Marker', cursive;
+font-family: 'Freckle Face', cursive;
+font-family: 'Slackey', cursive; --*/
+
+a {
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* ---hero image----*/
+
+img {
+    width: 100%;
+    height: 400px;
+}
+
+.full-width-image {
+    height: 400px;
+    background-image: url("images/rawpixel-com-247282.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 0;
+}
+
+
+/* ---header and nav buttons----*/
+
+header {
+    height: 100px;
+    background-color: #fff;
+}
+
+header h1 {
+    float: left;
+    color: #000;
+    font-family: 'Freckle Face', cursive;
+    font-size: 70px;
+    margin: auto;
+    text-decoration: none;
+}
+
+header nav {
+    float: right;
+    margin-top: 22px;
+}
+
+header nav a {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #424254;
+    margin-left: auto;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #9e4c32;
+}
+
+.btn {
+    display: inline-block;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    padding: 6px 10px;
+    border-radius: 8px;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.btn-primary {
+    color: black;
+    border-color: #2e6da4;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+
+/* ---body----*/
+
+body {
+    background-color: #fff;
+    margin: 0;
+}
+
+main {
+    min-height: 400px;
+    background-color: #fff;
+}
+
+.container {
+    width: 980px;
+    margin: auto;
+}
+
+
+/*--.container:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+/*--.container-fluid {
+    width: 100%;
+    min-width: 760px;
+}
+--*/
+
+.container1 {
+    width: 980px;
+    padding: 0, 30px;
+    margin: 10px, 50px;
+    border: 2px;
+}
+
+.container2 {
+    width: auto;
+    margin: 0;
+    text-align: center;
+    background-color: #018c7b;
+    padding: 2px;
+}
+
+.container3 {
+    background-color: #018c7b;
+    height: 40px;
+}
+
+.wrapper {
+    width: 1006px margin: 0 auto;
+}
+
+
+/* -------- =Column Layout -------*/
+
+.col-1 {
+    width: 8.33333333%;
+}
+
+.col-2 {
+    width: 16.66666667%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33333333%;
+}
+
+.col-5 {
+    width: 41.66666667%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 54.33%;
+}
+
+.col-8 {
+    width: 66.66666667%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33333333%;
+}
+
+.col-11 {
+    width: 91.66666667%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+    float: left;
+    padding-right: 10px;
+    padding-left: 100px;
+}
+
+.row:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
