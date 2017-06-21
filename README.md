@@ -1,4 +1,4 @@
-# first-webpage
-This is my first attempt at creating a web page. It is a work in progress.
+# CC1
+This is a webpage for a maker space at an elementary school, named Creativity Cave. It is a work in progress.
 
-https://shellymartinez.github.io/first-webpage/
+
