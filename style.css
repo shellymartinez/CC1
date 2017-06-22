@@ -6,7 +6,13 @@ font-family: 'Slackey', cursive; --*/
 
 a {
     font-family: Arial, sans-serif;
-    font-size: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+}
+
+a[href^="tel:"] {
+    color: black;
 }
 
 * {
@@ -36,6 +42,7 @@ img {
 header {
     height: 100px;
     background-color: #fff;
+    margin: auto;
 }
 
 header h1 {
@@ -108,6 +115,31 @@ main {
 .container {
     width: 980px;
     margin: auto;
+    border: 2px;
+}
+
+.container-fluid {
+    width: 100%;
+    min-width: 760px;
+}
+
+.style-section {
+    
+}
+.footer {
+    text-align: center;
+    background-color: #018c7b;
+    width: 100%;
+    min-width: 760px;
+    float:left;
+}
+
+.style-sectionhr {
+    text-align: center;
+    background-color: #018c7b;
+    height: 50px;
+    width: 100%;
+    min-width: 760px;
 }
 
 
@@ -123,7 +155,8 @@ main {
 }
 --*/
 
-.container1 {
+
+/*--.container1 {
     width: 980px;
     padding: 0, 30px;
     margin: 10px, 50px;
@@ -131,21 +164,10 @@ main {
 }
 
 .container2 {
-    width: auto;
-    margin: 0;
     text-align: center;
     background-color: #018c7b;
     padding: 2px;
-}
-
-.container3 {
-    background-color: #018c7b;
-    height: 40px;
-}
-
-.wrapper {
-    width: 1006px margin: 0 auto;
-}
+} --*/
 
 
 /* -------- =Column Layout -------*/
